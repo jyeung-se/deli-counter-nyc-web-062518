@@ -13,8 +13,9 @@ def line(other_deli)
 end
 
 
-def take_a_number(katz_deli, "Ada")
-  if
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  puts "Welcome #{name}, you are number #{katz_deli[i]} in line."
 end
 
 
