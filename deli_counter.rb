@@ -17,7 +17,7 @@ def take_a_number(katz_deli, name)
   counter = 0
   if katz_deli.size > 0
     katz_deli.push(name)
-    puts "Welcome, #{name}. You are number #{katz_deli[-1]} in line."
+    puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
   else
     puts "Welcome, #{name}. You are number 1 in line."
   
