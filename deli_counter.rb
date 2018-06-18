@@ -25,7 +25,7 @@ def take_a_number(katz_deli, name)
 end
 
 
-def now_serving
+def now_serving(katz_deli)
   if katz_deli.size > 0
     puts katz_deli.shift
   else
