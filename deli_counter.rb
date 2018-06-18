@@ -14,8 +14,9 @@ end
 
 
 def take_a_number(katz_deli, name)
+  counter = 0
   katz_deli.push(name)
-  puts "Welcome #{name}, you are number #{katz_deli[i]} in line."
+  puts "Welcome #{name}, you are number #{katz_deli[counter + 1]} in line."
 end
 
 
